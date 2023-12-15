@@ -1,0 +1,373 @@
+
+
+body{
+
+    margin:0;
+    padding:0;
+   
+    font-family:  "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+   
+}
+section{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+
+    z-index: 1;
+}
+.navbar h1{
+color: white;
+font-size: 40px;
+font-weight: 800px;
+
+}
+.navbar-toggler-icon {
+    color: white;
+    background-color: #00FFFF; /* Set the color to white */
+  }
+.navbar-nav li{
+
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family:"Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    color:black
+}
+
+.row .image-fluid{
+margin: 0;
+    width:100%;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .navbar{
+
+        background-color:black;
+        
+    }
+    .navbar-nav .nav-link{
+
+       
+        font-size: 20px;
+        font-weight: 400;
+        font-family:"Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+        color:white;
+    }
+    .navbar-nav .nav-link:hover{
+
+       
+        font-size: 20px;
+        font-weight: 400;
+        font-family:"Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+        color:gray;
+    }
+
+    
+}
+.upper-section .row {
+
+    background-image: url('./img/download.webp');
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: -80;
+    z-index: 0;
+}
+
+.upper-section .row .bg-hi{
+  background-color: #800000;
+    width:40%;
+    height: 500px;
+   
+    z-index: 0;
+    color: white; /* Put the second div below the navbar */
+}
+@media (max-width: 768px) {
+    .upper-section .row .bg-hi{
+        background-color: transparent;
+        width:100%;
+        height: 500px;
+        margin-top: 0 auto;
+        color: black;
+        z-index: 0; /* Put the second div below the navbar */
+       
+    }
+
+}
+.upper-section .custom-div{
+
+    margin: 100px auto;
+}
+.col-md-4 .text{
+
+    border-left: 1px solid blue;
+}
+.buttons .btn-primary {
+    border-radius: 50px; 
+    background-color: gray;
+    color: white; 
+    transition: background-color 0.3s;
+  }
+  .col-md-4 .text .paragraph{
+margin-left: 20px;
+
+  }
+  .buttons{
+    margin-bottom: 100px;;
+  }
+.btn-primary:hover {
+    background-color: blue;
+  }
+  .WhyUs .custom{
+
+   
+    margin: 100px auto;
+    width:50%;
+}
+  .buttons  .btn-custom{
+    border-radius:none;
+    background-color: none;
+    color:gray; 
+   
+
+  }
+  .btn-custom:hover {
+    color:white; 
+  }
+
+
+
+  .blue-hr {
+    width: 80px;
+    height: 0.1rem;
+    background-color: blue;
+    margin: 20px auto; 
+    border: none; 
+ 
+}
+
+
+
+
+.row .col-md-6{
+
+    background-color:#00FFFF;
+}
+
+.carousel-control-prev , .carousel-control-next{
+
+    margin-top: 100px;
+}
+
+.bi-envelope-paper{
+
+    color:green;
+    width:60px;
+    height: 60px;
+
+}
+.text .paragraph1{
+    margin-left: 40px;;
+}
+
+.services .row .col-md-4{
+
+    margin-bottom: 50px;
+    overflow:hidden;
+}
+ .carouselExampleDark{
+
+    background-color: blue;
+  width: 80%;
+  margin: 0 50%; /* Center the text-div horizontally */
+  padding: 20px; /* Add padding as needed */
+  color: white; 
+}
+
+.u-section{
+  margin-top: 0;
+    
+   background-image: url('./img/download.webp');
+   background-size: cover;
+    background-attachment: fixed;
+  
+}
+.u-section .container-fluid .row{
+    background-color: rgba(0, 0, 0, 0.7);
+    width:101%;
+
+}
+.u-section .container-fluid .row .col-lg-12{
+
+    margin: 100px 0px;
+}
+.u-section .container h2{
+margin-top: 91px;
+  margin-bottom: 20px;
+  font-weight: 800px;
+  font-size: 40px;
+}
+
+.u-section .container p{
+    font-weight: 400px;
+    font-size: 20px;
+
+}
+
+.u-section .row .text-section{
+
+    width:100%;
+}
+.u-section .row .text-section .paragraph{
+
+    margin-bottom: 30px;
+}
+
+.u-section .row  .btn{
+
+    background-color: gray;
+    transition: background-color 0.3s;
+    color:white;
+    font-weight: 200;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    width:200px;
+    margin-bottom: 50px;
+
+}
+.u-section .row  .btn:hover{
+
+   background-color: brown;
+}
+.powerFull .container{
+
+    display: flex;
+   
+}
+.powerFull  h1{
+
+    margin-top: 40px;
+}
+
+.powerFull .container .row{
+
+   width:50%;
+}
+.powerFull .container .features-row{
+
+    height: 300px;;
+}
+.powerFull .container .image-row{
+
+    margin-top: 70px;
+    height:700px;
+    width:40%;
+}
+.powerFull .container .row .col-lg-6{
+
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    
+
+    .powerFull .container .image-div{
+
+        
+      display: block;
+       
+    }
+}
+
+
+.lobar{
+
+    background-color: #ADD8E6;
+    margin-top: 0%;
+}
+
+
+.lobar .row{
+  align-items: normal;
+    margin-top: 0px;
+}
+
+.lobar .row .col-md-4 .btn{
+    margin-bottom: 70px;
+    background-color: gray;
+    color:white;
+    font-size: 20px;
+    font-weight: 400px;
+    border: none;
+
+    border-radius: 50px;
+}
+.lobar .row .col-md-4 .btn:hover{
+
+    background-color: pink;
+}
+.blog-section .image-fluid:hover{
+
+    width:400px;
+}
+.blog-section .btn-blog{
+
+    color:cornflowerblue;
+
+}
+.blog-section .btn-blog:hover{
+
+    color:cornflowerblue;
+}
+.image-div{
+
+    height: 250px;
+}
+
+.fotter_section{
+
+    background-color: #f7f9fc;
+}
+
+.fotter_section li{
+
+    color:gray;
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.fotter_section .bi{
+
+    background-color: pink;
+    color:white;
+    border-radius: 50%;
+}
+
+.fotter_section .col-lg-4, .col-lg-3,.col-lg-2{
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.fotter_section .col-lg-3{
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.fotter_section .col-lg-2{
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.bottom-footer p{
+
+    margin: 0;
+}
+.bottom-footer .mt-5{
+
+    margin-top: 20px;
+}

@@ -1,0 +1,83 @@
+
+body{
+
+    margin: 0;
+}
+
+.upper-section .row .image-fluid{
+
+
+    height:300px;
+    width:350px;
+    margin: 100px 0;
+}
+
+.bg-white .row .col-lg-6{
+
+    margin: 100px 0;
+
+}
+
+.bg-white .row .col-lg-6 h2{
+
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.bg-white .row .col-lg-6 p{
+
+    font-weight: 400px;
+    font-size: 20px;
+}
+
+.bg-white .row .col-lg-6 .bi-check-circle{
+ 
+    color:blue;
+}
+
+.bg-white .row .col-lg-6 span{
+    color:black;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+}
+
+
+hr{
+    width: 80px;
+    height: 0.1rem;
+    background-color: blue;
+    margin: 20px auto; 
+    border: none; 
+ 
+}
+
+
+
+.our-team .row .image-fluid{
+
+    
+    height:300px;
+  
+}
+.our-team .row .image-fluid:hover + .icons {
+    display: block;
+}
+.our-team .row .icons:hover{
+    display: block;
+}
+.our-team .row .icons{
+
+    
+    background-color: rgb(red, white, blue);
+    display: none;
+
+  
+}
+.our-team .row .icons .bi{
+
+    margin:20px;
+   
+
+}
